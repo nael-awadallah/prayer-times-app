@@ -13,8 +13,10 @@ import {
 } from './ui/select';
 
 const cities = [
-  { name: 'Aqaba', country: 'JO' },
   { name: 'Amman', country: 'JO' },
+  { name: 'Maan', country: 'JO' },
+  { name: 'Madaba', country: 'JO' },
+  { name: 'Aqaba', country: 'JO' },
   { name: 'Irbid', country: 'JO' },
   { name: 'Zarqa', country: 'JO' },
 ];
@@ -105,7 +107,7 @@ export default function PrayerTimesCountdownCity() {
 
   if (loading) {
     return (
-      <Card className="w-full max-w-md mx-auto">
+      <Card className="w-full max-w-md mx-auto ">
         <CardHeader>
           <Skeleton className="h-8 w-3/4 mx-auto mb-4" />
         </CardHeader>
